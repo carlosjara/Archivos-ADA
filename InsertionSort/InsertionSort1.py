@@ -1,3 +1,10 @@
+#Inseriton Sort
+#Carlos Jaramillo
+#Curso ADA 2016-1
+#Se agrega main para leer archivo con python3 InsertionSort1.py < InsertionSort1.in
+#Se agrega main para leer archivo con python3 InsertionSort1.py < InsertionSort1.in > InsertionSort.out
+
+
 from sys import stdin
 
 def insertionSort1(A):
@@ -17,9 +24,14 @@ def insertionSort1(A):
 
 
 def main ():
-    a = [22,3,6,7]
+    a = [22,3,7,6]
     print("Iniciando")
     print(insertionSort1(a))
+    #line = stdin.readline()
+    #while len(line)!=0:
+    #    a = [ int(x) for x in line.split() ]
+    #    print(insertionSort1(a))
+    #    line = stdin.readline()
 
 main()
     
