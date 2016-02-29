@@ -19,12 +19,13 @@ def insertionSort1(A):
             A[i+1] = A[i]
             i= i-1
         A[i+1]=key
+        print(A)
         j+=1
     return A
 
 
 def main ():
-    a = [22,3,7,6]
+    a = [5, 2, 4, 6, 1, 3]
     print("Iniciando")
     print(insertionSort1(a))
     #line = stdin.readline()
