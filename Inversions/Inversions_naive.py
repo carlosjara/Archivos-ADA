@@ -24,8 +24,8 @@ def main ():
     #line = stdin.readline()
     #while len(line)!=0:
     #    a = [ int(x) for x in line.split() ]
-    #    mergesort(a,0,len(a))
+    #    print(inversions(a))
     #    line = stdin.readline()
-    #print("Despues de mergesort: ",a)
+    #print("Despues de inversion: ",a)
 
 main()

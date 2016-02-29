@@ -32,6 +32,7 @@ def crossings(a,low,mid,hi):
     return ans
     
     
+
 def main ():
     a = [4,1,7,-2]
     print("Iniciando")
@@ -41,8 +42,8 @@ def main ():
     #line = stdin.readline()
     #while len(line)!=0:
     #    a = [ int(x) for x in line.split() ]
-    #    mergesort(a,0,len(a))
+    #    print(inversions(a,0,len(a)))
     #    line = stdin.readline()
-    #print("Despues de mergesort: ",a)
+    #print("Despues de inversion: ",a)
 
 main()
