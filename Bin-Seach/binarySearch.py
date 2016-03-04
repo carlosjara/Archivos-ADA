@@ -1,3 +1,7 @@
+#Binary Search
+#Carlos Jaramillo
+#Curso ADA 2016-1
+
 from sys import stdin
 
 
